@@ -1,0 +1,1 @@
+$('.bi-house-door').tooltip('teste');

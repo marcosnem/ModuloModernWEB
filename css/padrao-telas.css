@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Mukta;
+}
+
+body { 
+  min-height: 100vh; 
+}
+/* unidade vh (a altura da viewport) para permitir que o body defina um valor de altura mínima com base na altura total da viewport. */
+
+:root{
+  --background-clear: rgb(251, 239, 9);
+  --cor-empresa: rgb(72, 0, 255);  
+ 
+}
+.cabecalho{
+  width: 100%;
+  background-image: url(https://www.upgradeti.com.br/wp-content/uploads/2021/07/Empresa-de-TI-O-que-faz-e-porque-a-sua-empresa-deve-contratar-uma.jpg) ;
+}
+.menu .ul-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+li {
+  list-style: none;
+  padding: 2rem;
+  margin: auto;
+  color:black solid;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+
+

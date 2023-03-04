@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/padrao-telas.css"/>
+    <link rel="stylesheet" href="./css/cadastro-padrao.css"/>
+    <!-- <link rel="stylesheet" href="./css/home.css" /> -->
+
+    <title>Cadastro de clientes</title>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <li><a href="home.html"><i class="bi bi-house-door"></i></a></li>
+                <!-- <li><i class="bi bi-receipt-cutoff"></i></li> -->
+                <li>
+                    <p id="propaganda">EM&PROFI - Onde seus dados te ajudam a voar</p>
+                </li>
+                </li>
+                <!-- <li><i class="bi bi-person-vcard-fill"></i></li> -->
+            </ul>
+        </nav>
+    </header>
+       <span>
+            <h1 id="nome-empresa">EM&PROFI</h1>
+            <h3 id="mensagem">Seus dados, nossos cuidados. <i class="bi bi-box2-heart-fill"></i></h3>
+        </span>
+           
+           <section id="section-dados">
+            <h1 id="texto-perfil">CADASTRAR CLIENTE</h1>
+            <form class="form-padrao" >
+                <div class="div-cadastro">
+                    <label class="label-cadastro" for="">NOME</label>
+                    <input id="nome-cli" class="input-cadastro" type="text" placeholder="NOME COMPLETO">
+
+                    <label class="label-cadastro" for="">CPF</label>
+                    <input  id="cpf-cli" class="input-cadastro"type="number" placeholder="CPF">
+
+                    <label id=""  class="label-cadastro" for="">BIRTH</label>
+                    <input id="birth-cli" class="input-cadastro" type="date" >
+                    
+                    <label class="label-cadastro" for="">CEP</label>
+                    <input id="cep-cli" onblur="consultarEndereco()"   class="input-cadastro" type="text" placeholder="CEP">
+
+                    <label class="label-cadastro" for="">ENDEREÇO</label>
+                    <input id="endereco-cli"   class="input-cadastro" type="text" placeholder="ENDERECO" readonly>
+
+                    <label class="label-cadastro" for="">TELEFONE</label>
+                    <input id="telefone-cli" class="input-cadastro" type="number" placeholder="TELEFONE">
+
+                    <!-- <label class="label-cadastro" for="">É WHATSAPP</label> -->
+                    <!-- <input class="input-cadastro" type="text"> -->
+
+                    <label class="label-cadastro" for="">EMAIL</label>
+                    <input id="email-cli" class="input-cadastro" type="email" placeholder="EMAIL"> 
+
+                    <label class="label-cadastro" for="">NOS FALE SOBRE VOCE</label>
+                    <textarea class="textarea-cadastro" name="" id="sobre-cli" cols="2" rows="10"></textarea>
+
+                    
+                </div>
+
+            </form>
+            <div class="div-botaoCadastro">
+            <button id="botaoCadastrarCLI" onclick="funcCadastraCLI()">CADASTRAR</button>
+        </div>
+        </section>
+       <footer>
+       <p><p><a href="https://copyrightservice.net/pt/copyright_notice" title="Avisos de direitos autorais">Avisos de direitos autorais</a> - De Direitos De Autor Internacionais ServiÃ§o (ICS)</p></p> 
+       </footer> 
+       <script src="./js/cadastro_cliente.js"></script> 
+</body>
+
+</html>

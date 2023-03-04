@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/padrao-telas.css"/>
+    <title>Você está na HOME</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <li><a href="home.html"><i class="bi bi-house-door" ></i></a></li>
+                <li><a href="consulta-geral.html"><i class="bi bi-receipt-cutoff"></a></i></li>
+                <li><a href="cadastro.html"><i class="bi bi-person-vcard-fill"></a></i></li>
+                <li>
+                    <p id="propaganda">EM&PROFI - Onde seus dados te ajudam a voar</p>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="conteudo-empresa">
+        <!-- <span> -->
+            <h1 id="nome-empresa">EM&PROFI</h1>
+            <h2>
+                <p id="descreve-missao">Buscando manter um banco de dados atualização e neutro, guardamos dados alimentados por empresas e
+                    profissionais que querem gerar mais oportunidades de fechar parcerias, estando com uma base sólida
+                    para atuar em projetos da região e criando um dashboard baseado na autenticidade das informações e
+                    feedback dos clientes atendidos, das empresas e dos profissionais.</p>
+            </h2>
+            <h3 id="mensagem">Seus dados, nossos cuidados. <i class="bi bi-box2-heart-fill"></i></h3>
+        <!-- </span> -->
+    </section>
+        <section>
+            <p id="perfil-pessoa">QUE PERFIL QUER ESCOLHER? </p>
+            <!-- <button type="">
+                CADASTRAR AGORA
+            </button> -->
+            <!-- <span id="span-perfil">
+            <input class="input-perfil" type="radio" name="CLIENTE" id="">
+            <label class="label-perfil" for="">CLIENTE</label>
+            <input class="input-perfil" type="radio" name="" id="PROFISSIONAL">
+            <label class="label-perfil" for="">PROFISSIONAL</label>
+            <input class="input-perfil" type="radio" name="" id="EMPRESA">
+            <label class="label-perfil" for="">EMPRESA</label>
+        </span>
+        </section> -->
+        <!-- TELA DE ESCOLHA DE TIPO DE USUARIO -->
+        <section id="section-perfil">
+            <!-- <p id="">ESCOLHA O TIPO DE USUÁRIO</p> -->
+            <button class="botao-cadastro" type="submit" onclick="window.location.replace('cadastro_cliente.html')"> CLIENTE</button> 
+            <button class="botao-cadastro" type="submit" onclick="window.location.replace('cadastro_profissional.html')">PROFISSIONAL</button >
+            <button class="botao-cadastro" type="submit" onclick="window.location.replace('cadastro_empresa.html')">EMPRESA </button>
+        </section>
+ 
+        </section>
+        <footer>
+            <p>
+                <p><a href="https://copyrightservice.net/pt/copyright_notice" title="Avisos de direitos autorais">Avisos de direitos autorais</a> - Serviços Internacionais Direitos do Autor  (ICS)</p>
+            </p>
+        </footer>
+        <script src="./js/home.js"></script>
+</body>
+
+</html>

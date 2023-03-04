@@ -1,0 +1,61 @@
+.conteudo-empresa {
+  width: 100%;
+  font-size: 20px;
+}
+
+#nome-empresa {
+  font-size: 60px;
+  text-align: center;
+  color: var(--cor-empresa);
+  background-color: var(--background-clear);
+}
+
+#descreve-missao {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: justify;
+  text-shadow: 2px 2px 2px #000000;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  color: var(--background-clear);
+  background-image: url(https://inforchannel.com.br/wp-content/uploads/2021/09/Tecnologia32-1024x683.jpg);
+  
+}
+#mensagem {
+  font-size: 3rem;
+  text-shadow: 0px 2px 0px #e11111;
+}
+
+.bi-box2-heart-fill {
+  color: var(--background-clear);
+}
+
+#perfil-pessoa{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+/* .input-perfil, .label-perfil{
+   text-align: center; 
+   margin: .5rem;
+   font-size: 1rem;
+   padding: 1rem;
+   padding-bottom: 1rem;
+} */
+
+#section-perfil{
+
+    text-align: center;
+    margin: 1rem;
+}
+
+.botao-cadastro{
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: var(--background-clear);
+}
+

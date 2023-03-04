@@ -1,0 +1,102 @@
+#nome-empresa {
+    font-size: 60px;
+    text-align: center;
+    color: var(--cor-empresa);
+    background-color: var(--background-clear);
+  }
+  #mensagem {
+    font-size: 3rem;
+    text-shadow: 0px 2px 0px #e11111;
+    text-align: center;
+  }
+
+#texto-perfil{
+    margin: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--background-clear);
+}
+
+#section-dados{
+    background-color: rgb(63, 58, 231);
+}
+
+.form-padrao{
+    /* margin-left: 1rem; */
+    padding: .5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.div-cadastro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+
+ }
+
+ .label-cadastro{
+  margin-right: .5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  /* text-shadow: 0px 1px 0px #e11111;  */
+        
+ }
+
+ 
+.input-cadastro {
+    padding: 0.5rem;
+    /* margin: auto; */
+    font-size: 25px;
+    width: 99%;
+    padding: .9rem 0 .9rem 0;
+    border: 2px solid rgba(255, 197, 5, 0.943);
+    text-align: center; 
+  }
+
+  .textarea-cadastro{
+    width: 99%;
+    margin-bottom: 1rem;
+  }
+  
+#botaoCadastrarCLI{
+  font-size: 2rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--background-clear);
+}
+
+#botaoCadastrarEM{
+  font-size: 2rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--background-clear);
+
+}
+
+#botaoCadastrarPROFI{
+  font-size: 2rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--background-clear);
+
+}
+
+#endereco-cli, #endereco-em, #endereco-profi{
+
+  background-color: rgb(223, 210, 210);
+}
+
+.div-botaoCadastro{
+margin-left: 45%;
+margin-bottom: 40px;
+
+}
+
+
+
